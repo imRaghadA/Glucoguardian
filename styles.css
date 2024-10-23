@@ -17,7 +17,7 @@
     }
     
     .about {
-            background-image: url("media/img1.jpg");
+            background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/media/img1.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -32,7 +32,7 @@
     
     .services{
     
-    background-image: url("media/img2.jpg");
+    background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/media/img2.jpg");
         background-size: cover; /* Ensures the image covers the entire background */
         background-position: center; /* Centers the image */
         background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -44,7 +44,7 @@
     
     .askus_img{
     
-    background-image: url("media/img3.jpg");
+    background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/media/img3.jpg");
         background-size: cover; /* Ensures the image covers the entire background */
         background-position: center; /* Centers the image */
         background-repeat: no-repeat; /* Prevents the image from repeating */
