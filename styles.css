@@ -1,323 +1,317 @@
-*{
-    margin:0;
-    padding:0;
-    
-    }
-    
-    
-    .top{
-        padding-top: 120px;
-        background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/top.jpg");
-        background-size: cover;
-        background-position: center; 
-        background-repeat: no-repeat; 
-        width: 100%; 
-        height: 800px;
-        top: 0;
-    }
-    
-    .about {
-            background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/img1.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 800px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            
-        }
-        html {
-            scroll-behavior: smooth;
+* {
+    margin: 0;
+    padding: 0;
+}
 
-        }
-    
-    .services{
-    
+.top {
+    padding-top: 120px;
+    background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/top.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    top: 0;
+}
+
+.about {
+    background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.services {
     background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/img2.jpg");
-        background-size: cover; /* Ensures the image covers the entire background */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-    width: 100%; /* Full width */
-                height: 800px;
-    
-    
-    }
-    
-    .askus_img{
-    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+.askus_img {
     background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/img3.jpg");
-        background-size: cover; /* Ensures the image covers the entire background */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-    width: 100%; /* Full width */
-                height: 800px;
-    
-    
-    }
-    
-    header {
-        background-color: #fff;
-        color: #fff;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        height:50px;
-        padding: 20px;
-        width:  100%;
-        display: flex;
-        flex-direction: row;
-        position: fixed;
-        top: 0;
-        z-index: 1000;
-    }
-    
-    
-    header .logo h1 {
-        font-size: 2em;
-        color:red;
-        margin-right: 250px;
-        margin-top: 15px;
-    }
-    
-    .logo{
-        display: flex;
-        flex-direction: row;
-        margin-right: 10px;
-    }
-    
-    .logo img{
-        margin-right: 5px;
-        padding: 0px;
-    }
-    
-    nav ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-    
-    nav ul li {
-        margin-right:30px;
-    }
-    
-    nav ul li a {
-        color: red;
-        text-decoration: none;
-        font-size: 1.3em;
-        transition: color 0.3s ease;
-    
-    }
-    
-    nav ul li a:hover {
-        color: #dfe3ee;
-    }
-    
-    .signin {
-      border: 5px solid rgb(247, 176, 48);
-      background-color: rgb(247, 176, 48);
-      border-radius: 25px;
-      margin-left: 150px;
-      font-size: 1.2em;
-      padding: 10px;
-    }
-    
-    .signin a{
-       text-decoration: none;
-       color: white;
-    }
-    
-    .signin a:hover{
-       color: white;
-       text-decoration: underline;
-    }
-    
-    #title{
-      font-family: "Londrina Sketch", sans-serif;
-      color: rgb(247, 176, 48);
-      font-size: 40px;
-      font-style: normal;
-    }
-    
-    #description{
-      font-size: 25px;
-      font-family: 'Times New Roman', Times, serif;
-      font-weight: bold;
-      margin-top: 20px;
-    }
-    
-    .intro{
-        margin-left: 50px;
-        margin-top: 200px;
-    }
-    
-    
-    #features h2{
-    
-        padding:20px;
-        text-align:center;
-            font-family: "Londrina Sketch", sans-serif;
-          color: rgb(247, 176, 48);
-            font-size: 50px;
-        font-style: normal;
-    
-    }
-    
-    #features ul{
-        list-style: none;
-        display: grid;
-        grid-template-columns:1fr 1fr;
-        gap:10px;
-        text-align:center;
-        margin-left:50px;
-        
-    }
-    
-    #features ul li{
-        background-color: #fff;
-        padding: 20px;
-        margin-left:80px;
-        margin-top:35px;
-        margin-bottom:35px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        width:380px;
-        height:100px;
-    }
-    #features ul li:hover {
-        background-color: rgba(195, 220, 250, 0.515);
-    }
-    #features ul li strong {
-        display: block;
-        font-size: 1.2em;
-        margin-bottom: 10px;
-    }
-    
-    
-     .about h2 {
-            text-align: center;
-            margin: 0;
-            padding-bottom: 20px;
-            font-family: "Londrina Sketch", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            color: rgb(247, 176, 48);
-            font-size: 75px;
-        }
-    
-        
-        .about p{
-            background-color: #ffffff;
-            padding: 20px 40px;
-            margin-top: 20px;
-            height: auto;
-            width: 100%;
-            border: 2px solid #ffffff;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            font-size: 18px;
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: bold;
-            max-width: 500px;
-        }
-        .askUs {
-            text-align: center;
-            font-family:"Londrina Sketch", sans-serif;
-            font-size: 75px;
-            font-weight: 400;
-            color: rgb(247, 176, 48);
-        }
-        .contact-form {
-            width: 100%;
-            max-width: 600px;
-            margin: 50px auto;
-            margin-top: 50px ;
-            padding: 20px ;
-            padding-right: 3%;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            font-family: 'Times New Roman', Times, serif;
-          }
-          
-          .form-group {
-            margin-bottom: 20px;
-          }
-          
-          .form-group label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 10px;
-          }
-          
-          .form-group input, 
-          .form-group textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            font-size: 16px;
-          }
-          
-          .form-group input:focus,
-          .form-group textarea:focus {
-            outline: none;
-            border-color: rgb(247, 176, 48);
-          }
-          
-          .submit-btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: rgb(247, 176, 48);
-            color: white;
-            font-size: 16px;
-            font-weight: bold;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-          }
-          
-          .submit-btn:hover {
-            text-decoration: underline;
-          }
-    
-    
-    footer {
-        background-color: #fff; 
-        color: red; 
-        text-align: center;
-        padding: 20px;
-        margin-top: 20px;
-    }
-    
-    footer p {
-        margin: 10px 0;
-        font-size: 1em;
-        color: red; 
-    }
-    
-    footer .social-media {
-        margin-top: 10px;
-    }
-    
-    footer .social-media a {
-        color: red; 
-        margin: 0 15px;
-        text-decoration: none;
-        font-size: 1.2em;
-        transition: color 0.3s ease;
-    }
-    
-    footer .social-media a:hover {
-        color: #ff6b6b; 
-    }
-    
-    footer .social-media i {
-        margin-right: 5px;
-    }
-   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    font-size: 2em;
+    color: red;
+    margin-right: 250px;
+    margin-top: 15px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.logo img {
+    margin-right: 5px;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #dfe3ee;
+}
+
+.signin {
+    border: 5px solid rgb(247, 176, 48);
+    background-color: rgb(247, 176, 48);
+    border-radius: 25px;
+    margin-left: 150px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.signin a {
+    text-decoration: none;
+    color: white;
+}
+
+.signin a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#title {
+    font-family: "Londrina Sketch", sans-serif;
+    color: rgb(247, 176, 48);
+    font-size: 40px;
+    font-style: normal;
+}
+
+#description {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.intro {
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+#features h2 {
+    padding: 20px;
+    text-align: center;
+    font-family: "Londrina Sketch", sans-serif;
+    color: rgb(247, 176, 48);
+    font-size: 50px;
+    font-style: normal;
+}
+
+#features ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#features ul li {
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    height: 100px;
+}
+
+#features ul li:hover {
+    background-color: rgba(195, 220, 250, 0.515);
+}
+
+#features ul li strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.about h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(247, 176, 48);
+    font-size: 75px;
+}
+
+.about p {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.about p:hover {
+    box-shadow: 0 6px 10px rgba(247, 177, 48, 0.484);
+}
+
+.askUs {
+    text-align: center;
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    color: rgb(247, 176, 48);
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-right: 3%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: rgb(247, 176, 48);
+}
+
+.form-group input:hover,
+.form-group textarea:hover {
+    box-shadow: 0 2px 4px rgba(247, 177, 48, 0.484);
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(247, 176, 48);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #fff;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: red;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    color: red;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    color: #ff6b6b;
+}
+
+footer .social-media i {
+    margin-right: 5px;
+}
+
 .login-container {
     width: 100%;
     max-width: 400px;
@@ -348,6 +342,17 @@
     margin-bottom: 10px;
 }
 
+.login-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form .submit-btn {
+    display: inline-block
+}
 .login-form .form-group input {
     width: 100%;
     padding: 10px;
@@ -396,7 +401,7 @@
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(195, 220, 250, 0.515);
     text-align: center;
-    background-image: url("media/img1.jpg");
+    background-image: url("https://raw.githubusercontent.com/imRaghadA/Glucoguardian/refs/heads/main/media/img1.jpg");
 }
 
 .signup-container h2 {
@@ -499,4 +504,3 @@ input[type="radio"] {
         margin-left: 100px;
     }
 }
-
